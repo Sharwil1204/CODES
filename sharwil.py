@@ -1,0 +1,8 @@
+a=(1,2,3,4,5,6,7,8,9,10)
+b=(9,10,11,12,13,14,15,16,17,18)
+c=a.union(b)
+d=a.intersection(b)
+e=a.difference(b)
+f=b.difference(a)
+g=e.union(f)
+h=a.symmetric_difference(b)
